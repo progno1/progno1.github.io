@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito sull'ecologia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sito sull'Ecologia</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Chi siamo</a></li>
+                <li><a href="articles.html">Articoli</a></li>
+                <li><a href="contact.html">Contattaci</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Benvenuti nel nostro sito sull'ecologia!</h2>
+            <p>Qui troverai informazioni, articoli e suggerimenti per contribuire a un ambiente più sano e sostenibile.</p>
+        </section>
+        <section>
+            <h2>Ultimi Articoli</h2>
+            <article>
+                <h3>Titolo Articolo 1</h3>
+                <p>Contenuto dell'articolo 1...</p>
+                <a href="article1.html">Leggi di più</a>
+            </article>
+            <article>
+                <h3>Titolo Articolo 2</h3>
+                <p>Contenuto dell'articolo 2...</p>
+                <a href="article2.html">Leggi di più</a>
+            </article>
+        </section>
+        <section>
+            <h2>Contattaci</h2>
+            <p>Hai domande o suggerimenti? Contattaci utilizzando il modulo sottostante.</p>
+            <form action="submit-form.php" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Sito sull'Ecologia. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
